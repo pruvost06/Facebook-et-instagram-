@@ -1,0 +1,693 @@
+html{
+
+ 
+  border: 1px solid #454545;
+  border-radius:  px;
+  box-shadow: 0 0 4px black;
+
+}
+
+body{
+padding: 0px;
+margin: 0px;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.app1{
+
+  height: 800px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  position: absolute;
+  bottom: 55px;
+  right: 720px;
+  border: 1px solid black;
+  border-radius: 50px;
+  box-shadow: 0 0 15px gray;
+
+}
+
+
+.scroll{
+
+
+overflow: scroll;
+width: 400px;
+height: 576px;
+overflow-x: hidden;
+overflow-y: scroll;
+position: absolute;
+bottom: 50px;
+right: 0px;
+margin: 30px auto;
+cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+ 
+}
+
+::-webkit-scrollbar-track{
+
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+ 
+}
+
+
+::-webkit-scrollbar-thumb{
+
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+
+.message{
+
+border: 11px solid red;
+border-radius: 50px;
+position: absolute;
+bottom: 92%;
+right:5px;
+}
+
+
+
+.message1{
+
+  border: 10px solid red;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 86%;
+  right: 210px;
+  }
+  
+
+
+  .message2{
+
+    border: 10px solid red;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 86%;
+    right:145px;
+    }
+    
+
+
+
+
+.number{
+
+  position: absolute;
+  bottom: 50%;
+  right:5px;
+
+
+
+}
+
+.seach{
+
+position: absolute;
+bottom:90% ;
+right:15px ;
+width: 300px;
+height: 35px;
+border-radius: 50px;
+border: 1px solid gray;
+
+}
+
+.ligne1{
+
+  width: 400px;
+  height: 1px;
+  background: gray;
+  position: absolute;
+  bottom: 99%;
+}
+
+
+.ligne{
+
+  width: 400px;
+  height: 1px;
+  background: gray;
+  position: absolute;
+  bottom: 87%;
+}
+
+
+
+.ligne3{
+
+  width: 400px;
+  height: 8px;
+  background: #B8B8B8;
+  position: absolute;
+  bottom: 77%;
+}
+
+
+
+.ligne4{
+
+  width: 400px;
+  height: 8px;
+  background: #B8B8B8;
+  position: absolute;
+  bottom: 64%;
+}
+
+
+.pointvert3{
+
+  border: 7px solid green;
+  border-radius: 5px;
+  position: absolute; 
+  bottom: 67%; 
+  right: 140px;  
+  }
+
+
+  .pointvert4{
+
+    border: 7px solid green;
+    border-radius: 50px;
+    position: absolute;
+     bottom: 67.5%;
+      right: 195px; 
+    }
+
+
+
+    .pointvert5{
+
+      border: 7px solid green;
+      border-radius: 50px;
+      position: absolute;
+      bottom: 67%;
+      right:78px;
+      }
+
+
+      .pointvert6{
+
+        border: 7px solid green;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 67%;
+        right: 20px;
+        }
+
+
+        .card1{
+
+         height: 120px;
+         width: 85px;
+         background: white;
+         border-radius: 10px;
+         box-shadow: 0px 0px 2px gray;
+         position: absolute;
+         bottom: 41%;
+         right: 289px;
+         border: 1px solid gray;
+        }
+
+
+        .card2{
+
+          height: 120px;
+          width: 85px;
+          background: white;
+          border-radius: 10px;
+          box-shadow: 0px 0px 2px gray;
+          position: absolute;
+          bottom: 41%;
+          right: 195px;
+         
+         }
+
+
+         .card3{
+
+          height: 120px;
+          width: 85px;
+          background: white;
+          border-radius: 10px;
+          box-shadow: 0px 0px 2px gray;
+          position: absolute;
+          bottom: 41%;
+          right: 100px;
+         
+         }
+
+         .card4{
+
+          height: 120px;
+          width: 85px;
+          background: white;
+          border-radius: 10px;
+          box-shadow: 0px 0px 2px gray;
+          position: absolute;
+          bottom: 41%;
+          right: 8px;
+         
+         }
+         
+         .ligne5{
+
+          width: 400px;
+          height: 8px;
+          background: #B8B8B8;
+          position: absolute;
+          bottom: 37%;
+        }
+
+
+        .ligne6{
+
+          width: 400px;
+          height: 8px;
+          background: #B8B8B8;
+          position: absolute;
+          bottom: -52%;
+        }
+         
+        .ligne7{
+
+          width: 400px;
+          height: 8px;
+          background: #B8B8B8;
+          position: absolute;
+          bottom: -140%;
+        }
+         
+
+       .actualite{
+
+       height: 500px;
+       width: 389px ;
+       background-color: white;
+       box-shadow: 0px 0px 0px gray;
+       position: absolute;
+       bottom: -50.8%;
+       right: 0;
+    
+
+       }
+
+
+       .actualite2{
+
+        height: 500px;
+        width: 389px ;
+        background-color: white;
+        box-shadow: 0px 0px 0px gray;
+        position: absolute;
+        bottom: -140%;
+        right: 0;
+      }
+
+
+
+      .actualite3{
+
+        height: 500px;
+        width: 389px ;
+        background-color: white;
+        box-shadow: 0px 0px 0px gray;
+        position: absolute;
+        bottom: -227%;
+        right: 0;
+      }
+
+      
+      .actualite4{
+
+        height: 500px;
+        width: 389px ;
+        background-color: white;
+        box-shadow: 0px 0px 0px gray;
+        position: absolute;
+        bottom: -315%;
+        right: 0;
+      }
+
+
+      .actualite5{
+
+        height: 500px;
+        width: 389px ;
+        background-color: white;
+        box-shadow: 0px 0px 0px gray;
+        position: absolute;
+        bottom: -405%;
+        right: 0;
+      }
+
+
+
+
+       .point{
+
+         height:6px ;
+        width: 6px; ;
+         background:gray;
+         position: absolute; 
+         bottom:30%;
+          right: 50px;
+          border-radius: 50px;
+       }
+
+       .point1{
+
+        height:6px ;
+       width: 6px; ;
+        background:gray;
+        position: absolute; 
+        bottom:30%;
+         right: 40px;
+         border-radius: 50px;
+      }
+
+
+      .point2{
+
+        height:6px ;
+       width: 6px; ;
+        background:gray;
+        position: absolute; 
+        bottom:30%;
+         right: 30px;
+         border-radius: 50px;
+      }
+
+      .point3{
+
+        height:4px ;
+       width: 4px; ;
+        background:gray;
+        position: absolute; 
+        bottom: 18%;
+         right: 280px;
+         border-radius: 60px;
+      }
+
+
+
+
+
+
+      .point4{
+
+        height:6px ;
+       width: 6px; ;
+        background:gray;
+        position: absolute; 
+        bottom:-59%;
+         right: 50px;
+         border-radius: 50px;
+      }
+
+      .point5{
+
+       height:6px ;
+      width: 6px; ;
+       background:gray;
+       position: absolute; 
+       bottom:-59%;
+        right: 40px;
+        border-radius: 50px;
+     }
+
+
+     .point6{
+
+       height:6px ;
+      width: 6px; ;
+       background:gray;
+       position: absolute; 
+       bottom:-59%;
+        right: 30px;
+        border-radius: 50px;
+     }
+
+     .point9{
+
+      height:4px ;
+     width: 4px; ;
+      background:gray;
+      position: absolute; 
+      bottom:-71%;
+       right: 279px;
+       border-radius: 50px;
+    }
+
+
+     .point7{
+
+      height:4px ;
+     width: 4px; ;
+      background:gray;
+      position: absolute; 
+      bottom: -59%;
+       right: 276px;
+       border-radius: 60px;
+    }
+
+
+    .point10{
+
+      height:6px ;
+     width: 6px; ;
+      background:gray;
+      position: absolute; 
+      bottom:-147%;
+       right: 50px;
+       border-radius: 50px;
+    }
+
+    .point11{
+
+     height:6px ;
+    width: 6px; ;
+     background:gray;
+     position: absolute; 
+     bottom:-147%;
+      right: 40px;
+      border-radius: 50px;
+   }
+
+
+   .point12{
+
+     height:6px ;
+    width: 6px; ;
+     background:gray;
+     position: absolute; 
+     bottom:-147%;
+      right: 30px;
+      border-radius: 50px;
+   }
+
+   .point13{
+
+    height:4px ;
+   width: 4px; ;
+    background:gray;
+    position: absolute; 
+    bottom:-159%;
+     right: 279px;
+     border-radius: 50px;
+  }
+
+  .ligne8{
+
+    width: 400px;
+    height: 8px;
+    background: #B8B8B8;
+    position: absolute;
+    bottom: -227%;
+  }
+
+
+
+  
+
+  .point14{
+
+    height:6px ;
+   width: 6px; ;
+    background:gray;
+    position: absolute; 
+    bottom:-235%;
+     right: 50px;
+     border-radius: 50px;
+  }
+
+  .point15{
+
+   height:6px ;
+  width: 6px; ;
+   background: gray;
+   position: absolute; 
+   bottom:-235%;
+    right: 40px;
+    border-radius: 50px;
+ }
+
+
+ .point16{
+
+   height:6px ;
+  width: 6px; ;
+   background:gray;
+   position: absolute; 
+   bottom:-235%;
+    right: 30px;
+    border-radius: 50px;
+ }
+
+ .point17{
+
+  height:4px ;
+ width: 4px; ;
+  background:gray;
+  position: absolute; 
+  bottom:-246%;
+   right: 283px;
+   border-radius: 50px;
+}
+
+
+
+
+.ligne9{
+
+  width: 400px;
+  height: 8px;
+  background: #B8B8B8;
+  position: absolute;
+  bottom: -315%;
+}
+
+
+
+.point18{
+
+  height:6px ;
+ width: 6px; ;
+  background:gray;
+  position: absolute; 
+  bottom:-324%;
+   right: 50px;
+   border-radius: 50px;
+}
+
+.point19{
+
+ height:6px ;
+width: 6px; ;
+ background: gray;
+ position: absolute; 
+ bottom:-324%;
+  right: 40px;
+  border-radius: 50px;
+}
+
+
+.point20{
+
+ height:6px ;
+width: 6px; ;
+ background:gray;
+ position: absolute; 
+ bottom:-324%;
+  right: 30px;
+  border-radius: 50px;
+}
+
+.point21{
+
+height:4px ;
+width: 4px; ;
+background:gray;
+position: absolute; 
+bottom:-246%;
+ right: 283px;
+ border-radius: 50px;
+}
+
+.point21{
+
+  height:4px ;
+  width: 4px; ;
+  background:gray;
+  position: absolute; 
+  bottom:-337%;
+   right: 279px;
+   border-radius: 50px;
+  }
+
+
+  .ligne10{
+
+    width: 400px;
+    height: 8px;
+    background: #B8B8B8;
+    position: absolute;
+    bottom: -405%;
+  }
+
+
+
+
+
+  .footer{
+    height: 55px;
+    width: 365px;
+    background:white;
+    position: absolute;
+    bottom: 5px;
+    left: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px black;
+    border: 0px solid;
+    }
+
+    .bouton{
+
+     height: 25px;
+     width: 25px;
+     background:white;
+     position: relative;
+     bottom: -35%;
+     right: -169px;
+     border-radius: 10px;
+     border: 3px solid black;
+     cursor: pointer;
+
+    }
+
+   
+     .bafle{
+       
+      height: 7px;
+      width: 55px;
+      background: white;
+      position: absolute;
+      bottom: 96%;
+      right: 170px;
+      border-radius: 10px;
+      border: 3px solid black;
+
+     }

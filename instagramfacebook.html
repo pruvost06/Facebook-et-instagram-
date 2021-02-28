@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <title>instagrame app</title>
+</head>
+<body>
+  
+<style>
+.btn1{
+cursor: pointer;
+}
+
+.btn2{
+  cursor: pointer;
+}
+
+</style>
+
+
+<a href="index.html"><img src="img/insta1.png" alt="" style="position: absolute; bottom: 47%; right:655px; cursor: pointer;" class=" btn1"></a>
+
+<a href="facebook.html"><img src="img/face.png" alt=""  style="position: absolute; bottom: 50%; right: 1100px; cursor: pointer;" class=" btn2" ></a>
+
+
+
+<!------------------------------jquery------------------------------------------------------>
+
+<script>
+
+$(window).css("background-color", "yellow")
+$(document).ready(function(){
+$(".btn1").mouseenter(function(){
+  $("body").css("background", "-webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%"); 
+ });
+ $(".btn1").mouseleave(function(){
+  $("body").css("background", "white")
+});
+$(".btn2").mouseenter(function(){
+  
+  $("body").css("background", "  #0092ed  "); 
+
+});
+$(".btn2").mouseleave(function(){
+$("body").css("background", "white")
+});
+});
+ 
+</script>
+
+</body>
+</html>
